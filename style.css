@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+--blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #1abc9c;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1abc9c;
+    --secondary: #2c3e50;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+*/
+
+.navbar {
+    background: #f9b5ff;
+}
+
+.nav-image {
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: white;
+margin-right: 0.5rem;    
+}
+
+.nav-links a:nth-child(1) {
+    margin-left: 0.2rem;
+}
+
+.hero-section {
+    background: #a53165;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.visit {
+    margin-top: 4rem;
+}
+
+.rule {
+    size: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 10%; 
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.portfolio {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.portfolio-img {
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+     }
+
+
+     .slider {
+        margin-right: 2rem;
+            width: 20%;
+    }
+  
+    
+
+/* .application { */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex: 1; */
+/* } */
+
+.empowerment h5, .empowerment p {
+    text-align: center;
+    color: white;
+}
+
+.application a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.about {
+    background: #a53165;
+    padding-left: 2rem;
+    text-align: justify;
+    padding-right: 2rem;
+}
+
+.about li {
+    padding-top: 0.8rem;
+}
+
+.about h6 {
+    text-align: center;
+}
+
+
+/* contact */
+.contact-us {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-in-touch {
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 50%);
+    background: whitesmoke;
+    width: 32rem;
+    border-radius: 5px;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ 
+.get-in-touch input {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    /* margin: 1.5rem 1rem 0 4rem; */
+    width: 24rem;
+    padding: 0.5rem 0rem;
+    justify-content: center;
+    border: 2px solid #F9F;
+}
+
+.get-in-touch .btn {
+    margin: 1.5rem 1rem 2rem 3.9rem;
+    background: #F9F;
+    padding: 0.5rem 0rem;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    border-style: none;
+    width: 24rem;
+    }
+
+    
+.get-in-touch textarea {
+    text-align: center;
+    width: 24rem;
+    margin-right: 3rem;
+    margin-left: 3.9rem;
+}
+
+
+
+.message {
+    margin: 1.5rem 1rem 0 4rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 0rem;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 149, 253);
+    width: 24rem;
+}
+
+
+.footer {
+    background: #343a40;
+    color: white;
+}
+
+
+.icon-contact {
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 100%;
+}
+
+
+.mail, .pre-wrap a, .images a, .about a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+
+@media  only screen and (max-width: 576px) {
+    .about {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: justify;
+    }
+
+    .hero-section {
+        padding-bottom: 1rem;
+    }
+    
+  
+    .images {
+        display: block;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    
+
+    
+    .portfolio-img {
+        justify-content: center;
+        display: block;
+        margin-top: 2rem;
+        margin: auto;
+         }
+
+         .slider {
+            display: block;
+            width: 100%;
+            margin-top: 1rem;
+         }
+
+
+
+
+.get-in-touch {
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 80%);
+    background: whitesmoke;
+    width: 18rem;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 3rem 0rem 2rem 2rem; */
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.get-in-touch input {
+    text-align: center;
+    display: block;
+    margin: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13rem;
+    padding: 0.5rem 0rem;
+    justify-content: center;
+    border: 0.5px solid #F9F;
+}
+
+.get-in-touch textarea {
+    width: 13rem;
+    margin-right: auto;
+    margin-left: 2.5rem;
+}
+
+.message {
+margin-top: 0.5rem;
+margin-left: auto;
+margin-right: auto;
+/* width: 24rem; */
+
+}
+
+.get-in-touch .btn {
+margin: 1.5rem 0 2rem 0;
+margin-left: 2.5rem;
+margin-right: auto;
+width: 13rem;
+
+}
+
+}
